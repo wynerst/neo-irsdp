@@ -1,0 +1,50 @@
+body {
+    font-family: tahoma, Verdana, 'Dejavu Sans', sans;
+    font-size: 11px;
+    line-height: 170%;
+    color: #003380;
+    margin: 0;
+    padding: 0;
+    /* background: url(media/body.jpg) fixed repeat-x bottom center; */
+}
+
+.dataListHeader {
+    background: #fc0;
+}
+
+.alterCell, .alterCell2 {
+    background-color: #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.alterCell2 {
+    background-color: #fff;
+}
+
+input,textarea,select {
+    border: 1px #727272 solid;
+    font-size: 12px;
+}
+
+input:hover,textarea:hover,select:hover {
+    border: 1px #444444 solid;
+}
+
+h3 {
+    height: 30px;
+	padding-left: 50px;
+    padding-top: 10px;
+	color: red;
+    border-bottom: 1px solid #999999;
+}
+
+a,a:hover {
+    font-size: 12px;
+    font-weight: bold;
+    color: #003380;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #459801;
+}

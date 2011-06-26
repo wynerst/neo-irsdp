@@ -1,0 +1,30 @@
+/* TABLE */
+.plaintable {
+	background: #fff;
+	width:100%;
+	vertical-align:top;
+	line-height: 1.2em;
+	font-family: Arial Narrow;
+	font-size: 8pt;	
+}
+
+.plaintable th {
+	background: #777777; /* for non-css3 browsers */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#b0afaf'); /* for IE */
+	background: -webkit-gradient(linear, top, bottom, from(#777777), to(#b0afaf)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #777777,  #b0afaf); /* for firefox 3.6+ */
+	color: #fff;	
+	border: 1px solid #CCC;
+	padding: 1px;
+	font-size:8pt;
+	padding-left: 3px;
+}
+
+.plaintable td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	padding-left: 3px;
+	vertical-align:top;
+	font-size:8pt;
+}
+
